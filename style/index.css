@@ -50,7 +50,7 @@ table {
 
 /* This Starts The Styling After Reset */
 
-html { font-size: 62.5%; } /* =10px */
+html { font-size: 62.5%; } /* 1 rem =10px */
 
 
 * {
