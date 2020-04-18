@@ -294,6 +294,7 @@ box1: teal
     padding: none;
     margin: 5rem;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .break {
@@ -329,7 +330,7 @@ box1: teal
     margin: 2.0rem 2.5%;
     color: white;
     display: flex;
-    align-items: center;
+    flex-direction: center;
     justify-content: center;
     flex-direction: row;
 }
@@ -341,7 +342,7 @@ box1: teal
     margin: 2.0rem 2.5%;
     color: white;
     display: flex;
-    align-items: center;
+    flex-direction: center;
     justify-content: center;
     flex-direction: row;
 }
