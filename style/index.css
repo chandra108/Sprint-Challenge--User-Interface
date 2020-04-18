@@ -48,14 +48,111 @@ table {
 }
 
 
-/* This Starts The Styling After Reset */
+/* ## This Starts The Styling After Reset */
 
 html { font-size: 62.5%; } /* 1 rem =10px */
 
 
+/**
+ * Images a now responsive
+ */
+ .lambdaLogo {
+    align-content: flex-start;
+	max-width: 100%;
+    height: auto;
+    
+}
+
+.container {
+	width: 90%;
+	max-width: 100%;
+    padding: 2.0rem;
+    
+	margin: 0 auto;
+}
+
+.main-header .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.main-nav ul {
+	margin: 4.7rem 0 3rem;
+    text-align: center;
+    font-size: 2.0rem;
+    
+}
+.main-nav li {
+	display: inline;
+}
+.main-nav a {
+	display: inline-block;
+	padding: 2rem 8.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 * {
     box-sizing: border-box;
+
 }
+
+/* .logoNav {
+
+}
+
+.lambdaLogo {
+    margin-left: 7.5rem;
+    margin-bottom: 3rem;
+}
+
+.parentNav {  
+    display: flex;
+    align-content: center;
+    max-width: 80%;
+    font-size: 2rem;
+    color: dark black;
+    margin-left: 7.5rem;
+    margin-right: 7.5rem;
+    
+   
+
+  }
+
+.parentNav {
+    display: flex;
+    justify-content:space-between;
+    list-style-type: none;
+        
+    } */
+
+  
+
+
+
+
+
+.headerPic {
+    display: flex;
+    align-content: center;
+        max-width: 100%;
+        max-height: auto;
+        margin-right: 7.5rem;
+        margin-left: 7.5rem;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
 
 html, body {
     height: 100%;
@@ -69,12 +166,16 @@ h1, h2, h3, h4, h5 {
 }
 
 p {
-    line-height: 1.4;
+    line-height: 1.4rem;
 }
 
 .container {
-    width: 80.0rem;
-    margin: 0 auto;
+    width: 100%;
+    margin: auto;
+    margin-left: 7.5rem;
+    margin-right: 7.5rem;
+    align-content: center;
+    
 }
 
 .top-content {
@@ -105,6 +206,116 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+
+/* <div class="boxes">
+<div class="box1">Box 1</div>
+<div class="box2">Box 2</div>
+<div class="box3">Box 3</div>
+<div class="box4">Box 4</div>
+<div class="box5">Box 5</div>
+<div class="box6">Box 6</div>
+<div class="box7">Box 7</div>
+<div class="box8">Box 8</div>
+<div class="box9">Box 9</div>
+<div class="box10">Box 10</div>
+</div> 
+
+box1: teal
+ box2: gold
+ box3: cadetblue
+ box4: coral
+ box5: crimson
+ box6: forestgreen
+ box7: darkorchid
+ box8: hotpink
+ box9: indigo
+ box10: dodgerblue*/
+
+.box1 {  
+    background-color: teal;
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.box2 {  
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.box3 {  
+    background-color: cadetblue;
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.box4 {  
+    background-color: coral;
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.box5 {  
+    background-color: crimson;
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.box6 {  
+    background-color: forestgreen;
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.box7 {  
+    background-color: darkorchid;
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.box8 {  
+    background-color: hotpink;
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.box9 {  
+    background-color: indigo;
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.box10 {  
+    background-color: dodgerblue;
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.boxes > .box1, .box2, .box3, .box4, .box5 {
+    display: flex;
+
 }
 
 .middle-content .boxes .box {
