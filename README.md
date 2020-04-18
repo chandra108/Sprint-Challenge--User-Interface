@@ -27,19 +27,34 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 ## Self-Study Questions
 
+Self-Study Questions
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-2. What are the 4 areas of the box model?
+Semantic means meaning... You want your html to be meaningful so that the next developer who happens to work on the code will know what your code means. Divs aren't semantic; rather generic  divisions that usually embrace more meaninful content. 
 
-3. While using flexbox, what axis does the following property work on: ```align-items: center```?
+What are the 4 areas of the box model?
 
-4. Explain why git is valuable to a team of developers.
+content
+padding
+border
+margin
 
-5. Define mobile-first design in your own words.
+While using flexbox, what axis does the following property work on: align-items: center? 
+
+center of the cross axis
+
+Explain why git is valuable to a team of developers.
+
+It allow for easy collaboration and will allow developers to save (commit) multiple copies of their drafts; so helps with version control.
+
+Define mobile-first design in your own words.
+
+Mobile first alludes to the fact that most people access the internet on their phones these days so for this reason web design should start from this vantage point so it's mobile responsive.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
