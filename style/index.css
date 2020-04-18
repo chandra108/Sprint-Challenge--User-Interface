@@ -92,65 +92,23 @@ html { font-size: 62.5%; } /* 1 rem =10px */
 	padding: 2rem 8.2rem;
 }
 
-
-
-
-
-
-
-
-
-
-
+/* ##  This is where the native code begins */
 
 * {
     box-sizing: border-box;
 
 }
 
-/* .logoNav {
-
-}
-
-.lambdaLogo {
-    margin-left: 7.5rem;
-    margin-bottom: 3rem;
-}
-
-.parentNav {  
-    display: flex;
-    align-content: center;
-    max-width: 80%;
-    font-size: 2rem;
-    color: dark black;
-    margin-left: 7.5rem;
-    margin-right: 7.5rem;
-    
-   
-
-  }
-
-.parentNav {
-    display: flex;
-    justify-content:space-between;
-    list-style-type: none;
-        
-    } */
-
-  
-
-
-
-
 
 .headerPic {
     display: flex;
     align-content: center;
+    width: 100%;
         max-width: 100%;
         max-height: auto;
         margin-right: 7.5rem;
         margin-left: 7.5rem;
-        margin-top: 2rem;
+        margin-top: 3rem;
         margin-bottom: 3rem;
     }
 
@@ -172,8 +130,8 @@ p {
 .container {
     width: 100%;
     margin: auto;
-    margin-left: 7.5rem;
-    margin-right: 7.5rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
     align-content: center;
     
 }
@@ -313,12 +271,58 @@ box1: teal
     margin: 0px;
 }
 
-.boxes > .box1, .box2, .box3, .box4, .box5 {
+/* .pictureRow {
     display: flex;
+  }
+  
+  .pictureColumn {
+    flex: 25%;
+    padding: none;
+    border-radius: 10px;
+    border: 5px solid rgba(32, 30, 134, 0.233);
+    margin: 30px;
+  } */
+
+.boxes {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+
+.box1 .box2 .box3 .box4 .box5 {
+    flex: 20%;
+    padding: none;
+    margin: 5rem;
+    flex-wrap: wrap;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+    margin: 5rem;
 
 }
 
-.middle-content .boxes .box {
+.moreBoxes {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+
+
+.box6 .box7 .box8 .box9 .box10 {
+    flex: 20%;
+    padding: none;
+    margin: 5rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    
+}
+
+
+
+.middle-content .boxes .box1 .box2 .box3 .box4 .box5{
     width: 12.5%;
     height: 10.0rem;
     background: black;
@@ -327,7 +331,21 @@ box1: teal
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
 }
+
+.middle-content .boxes .box6 .box7 .box8 .box9 .box10 {
+    width: 12.5%;
+    height: 10.0rem;
+    background: black;
+    margin: 2.0rem 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
 
 .bottom-content {
     display: flex;
