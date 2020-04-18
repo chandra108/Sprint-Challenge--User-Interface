@@ -323,7 +323,7 @@ box1: teal
 
 
 
-.middle-content .boxes .box1 .box2 .box3 .box4 .box5{
+.middle-content > .boxes .box1 .box2 .box3 .box4 .box5{
     width: 12.5%;
     height: 10.0rem;
     background: black;
@@ -335,7 +335,7 @@ box1: teal
     flex-direction: row;
 }
 
-.middle-content .boxes .box6 .box7 .box8 .box9 .box10 {
+.middle-content > .boxes .box6 .box7 .box8 .box9 .box10 {
     width: 12.5%;
     height: 10.0rem;
     background: black;
