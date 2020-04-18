@@ -167,30 +167,6 @@ p {
 }
 
 
-/* <div class="boxes">
-<div class="box1">Box 1</div>
-<div class="box2">Box 2</div>
-<div class="box3">Box 3</div>
-<div class="box4">Box 4</div>
-<div class="box5">Box 5</div>
-<div class="box6">Box 6</div>
-<div class="box7">Box 7</div>
-<div class="box8">Box 8</div>
-<div class="box9">Box 9</div>
-<div class="box10">Box 10</div>
-</div> 
-
-box1: teal
- box2: gold
- box3: cadetblue
- box4: coral
- box5: crimson
- box6: forestgreen
- box7: darkorchid
- box8: hotpink
- box9: indigo
- box10: dodgerblue*/
-
 .box1 {  
     background-color: teal;
     width: 100px;
@@ -271,17 +247,7 @@ box1: teal
     margin: 0px;
 }
 
-/* .pictureRow {
-    display: flex;
-  }
-  
-  .pictureColumn {
-    flex: 25%;
-    padding: none;
-    border-radius: 10px;
-    border: 5px solid rgba(32, 30, 134, 0.233);
-    margin: 30px;
-  } */
+
 
 .boxes {
     display: flex;
